@@ -56,7 +56,13 @@ from nltk.tokenize import word_tokenize
 
 #nltk.download('stopwords')	    #English Stop words
 #nltk.download('vader_lexicon')     #Model for text sentiment analysis
-#nltk.download('punkt')             #Sentence tokenizer
+#nltk.download('punkt')    #Sentence tokenizer
+nltk.download('stopwords')
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('twitter_samples')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 #CountVectorizer - Tokenizes collection of text and builds vocabulary of known words.
 from sklearn.feature_extraction.text import CountVectorizer
